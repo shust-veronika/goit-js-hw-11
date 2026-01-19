@@ -7,4 +7,53 @@
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
+/* 
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
+.div-img {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.input-img {
+  width: 272px;
+  height: 40px;
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
+background-color: #fff;
+border-radius: 4px;
+padding-left: 16px;
+border: 1px solid #808080;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.btn-img {
+  border: none;
+  border-radius: 8px;
+padding: 8px 16px;
+width: 75px;
+height: 40px;
+background: #4e75ff;
+cursor: pointer;
+color: #fff;
+}
+
+.btn-img:hover {
+  background: #6c8cff;
+}
