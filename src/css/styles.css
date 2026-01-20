@@ -23,6 +23,25 @@ body {
   margin-top: 36px;
 }
 
+.loader {
+  font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto; 
+  
+}
+
+
+.is-hidden {
+  display: none;
+}
+
 .input-img {
   width: 272px;
   height: 40px;
